@@ -8,7 +8,7 @@ Square Brackets : []
 Curly Brackets : {}
 
 ## Approach & Efficiency
-I decided upon an iterative approach to traverse the string. <br>
+I decided upon an iterative approach to traverse and test the string. <br>
 
 Big O space for this approach is O(n) <br>
 Big O time for this approach is O(n) <br>
