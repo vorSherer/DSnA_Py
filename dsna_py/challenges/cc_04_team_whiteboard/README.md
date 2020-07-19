@@ -37,4 +37,7 @@ Record detailed notes on the rubric, to share with the candidate when the interv
 #### My Submitted Comments:
 "I feel my interviewer was more lenient with me than necessary. While I appreciate his graciousness, I would have scored myself lower in several areas. My use of time was impacted by my unfamiliarity with matrices in coding. No way to go but up!" <br>
 
+![My Whiteboard solution - 1](./assets/CC-04_Whiteboard_sample-1_Sherer.png)
+![My Whiteboard solution - 2](./assets/CC-04_Whiteboard_sample-2_Sherer.png)
+
 ###### Submission PR: NN
