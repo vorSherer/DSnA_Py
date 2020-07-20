@@ -21,4 +21,4 @@
 
 <!-- [Code Challenge 12 - FIFO Animal Shelter](/py_dsna/401/challenges/queue_with_stacks/README.md) -->
 
-<!-- [Code Challenge 13 - Multi-Bracket Validation](/py_dsna/401/challenges/queue_with_stacks/README.md) -->
+[Code Challenge 13 - Multi-Bracket Validation](dsna_py/challenges/cc_13_multi_bracket_validation/README.md)
