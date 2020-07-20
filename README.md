@@ -9,7 +9,7 @@
 
 [Code Challenge 04 - team_whiteboarding](dsna_py/challenges/cc_04_team_whiteboard/README.md)
 
-<!-- [Code Challenges 05/06/07 - LinkedList](/py_dsna/401/data-structures/linked-list/README.md) -->
+[Code Challenges 05/06/07 - LinkedList](dsna_py/data_structures/cc_05_linked_list/README.md)
 
 <!-- [Code Challenge 08 - ll_merge](/py_dsna/401/challenges/ll-merge/README.md) -->
 

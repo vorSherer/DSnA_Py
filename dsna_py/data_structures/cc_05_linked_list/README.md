@@ -36,7 +36,7 @@ Big O time for this approach is O(n) <br>
 Big O time for insertion/deletion is O(1) <br>
 
 ## API
-<!-- Description of each method publicly available to your Linked List -->
+Descriptions of each method publicly available to my Linked List are detailed above (q.v.).
 
 ## Code Challenge 5 whiteboards:
 ![CC-05 singly-linked list -1](./assets/linked_list_WB-1.png)
@@ -50,13 +50,6 @@ Big O time for insertion/deletion is O(1) <br>
 ![CC-07 linked list kth-from-the-end](./assets/CC-07_ll-kth-from-end_WB.png)
 
 
-CC-05 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/12
-
-CC-06 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/24
-
-CC-07 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/26
-
-
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
 - [X] Feature tasks for this challenge are completed <br>
@@ -68,3 +61,15 @@ CC-07 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/26
     - [X] Summary, Description, Approach & Efficiency, Solution <br>
     - [X] Link to code <br>
     - [X] Pictures of whiteboards <br>
+
+###### ORIGINAL PRs:
+###### - CC-05 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/12
+
+###### - CC-06 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/24
+
+###### - CC-07 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/26
+
+###### - CC-08 Submission PR: https://github.com/vorSherer/Py-DSnA/pull/27
+
+###### MIGRATED:
+###### PR for new directory: https://github.com/vorSherer/DSnA_Py/pull/3
