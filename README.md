@@ -11,7 +11,7 @@
 
 [Code Challenges 05/06/07 - LinkedList](dsna_py/data_structures/cc_05_linked_list/README.md)
 
-<!-- [Code Challenge 08 - ll_merge](/py_dsna/401/challenges/ll-merge/README.md) -->
+[Code Challenge 08 - ll_merge](dsna_py/challenges/cc_08_ll_merge/README.md)
 
 <!-- [Code Challenge 09 - ll_reverse](/py_dsna/401/challenges/cc-09_Whiteboard/README.md) -->
 
