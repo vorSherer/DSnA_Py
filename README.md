@@ -13,7 +13,7 @@
 
 [Code Challenge 08 - ll_merge](dsna_py/challenges/cc_08_ll_merge/README.md)
 
-<!-- [Code Challenge 09 - ll_reverse](/py_dsna/401/challenges/cc-09_Whiteboard/README.md) -->
+[Code Challenge 09 - ll_reverse](dsna_py/challenges/cc_09_team_whiteboard/README.md)
 
 <!-- [Code Challenge 10 - Stacks and Queues](/py_dsna/401/data-structures/stacks_and_queues/README.md) -->
 
