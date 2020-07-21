@@ -38,7 +38,6 @@ head->['a']->['b']->['c']....head->['c']->['b']->['a']
 ## Documentation
 Record detailed notes on the rubric, to share with the candidate when the interview is complete. <br>
 
-
 [Whiteboard rubric on me here](./assets/2020-06-29_WB-Rubric.png) <br>
 [Whiteboard solution - page 1](./assets/2020-06-29_WB-solution-1.png) <br>
 [Whiteboard solution - page 2](./assets/2020-06-29_WB-solution-2.png)
