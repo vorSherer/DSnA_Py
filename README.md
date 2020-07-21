@@ -13,7 +13,7 @@
 
 [Code Challenge 08 - ll_merge](dsna_py/challenges/cc_08_ll_merge/README.md)
 
-[Code Challenge 09 - ll_reverse](dsna_py/challenges/cc_09_team_whiteboard/README.md)
+[Code Challenge 09 - team_whiteboarding - ll_reverse](dsna_py/challenges/cc_09_team_whiteboard/README.md)
 
 <!-- [Code Challenge 10 - Stacks and Queues](/py_dsna/401/data-structures/stacks_and_queues/README.md) -->
 
@@ -22,3 +22,6 @@
 <!-- [Code Challenge 12 - FIFO Animal Shelter](/py_dsna/401/challenges/queue_with_stacks/README.md) -->
 
 [Code Challenge 13 - Multi-Bracket Validation](dsna_py/challenges/cc_13_multi_bracket_validation/README.md)
+
+[Code Challenge 14 - team_whiteboarding - MaxStack](dsna_py/challenges/cc_14_team_whiteboard/README.md)
+
