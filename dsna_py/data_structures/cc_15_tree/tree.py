@@ -6,7 +6,8 @@ class TreeNode:
 
 
 class BinaryTree:
-    pass
+    def __init__(self):
+        self.root_node = None
 
     def pre_order(self, left_child=None, right_child=None):
         pass
@@ -18,7 +19,7 @@ class BinaryTree:
         pass
 
 
-class BinarySearchTree:
+class BinarySearchTree(BinaryTree):
     pass
 
     def add(self,value):

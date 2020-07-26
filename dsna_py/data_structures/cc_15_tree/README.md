@@ -42,7 +42,7 @@ The __Big O space complexity of a BST search__ would be __`O(1)`__.
 ## API
 Descriptions of each method publicly available to my Binary Trees are detailed above (q.v.).
 
-<!-- My code is [here]() -->
+My code is [here](dsna_py/data_structures/cc_15_tree/tree.py)
 
 ## Code Challenge N whiteboards:
 <!-- ![CC-15 binary tree - 1](./RELATIVE_PATH) -->
@@ -57,7 +57,7 @@ Descriptions of each method publicly available to my Binary Trees are detailed a
 
 
 ## Task Checklist: <br>
-<!-- - [ ] Top-level README “Table of Contents” is updated <br>
+- [X] Top-level README “Table of Contents” is updated <br>
 - [ ] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
     - [ ] “Happy Path” - Expected outcome <br>
@@ -66,6 +66,6 @@ Descriptions of each method publicly available to my Binary Trees are detailed a
 - [ ] README for this challenge is complete <br>
     - [X] Summary, Description, Approach & Efficiency, Solution <br>
     - [ ] Link to code <br>
-    - [ ] Pictures of whiteboards <br> -->
+    - [ ] Pictures of whiteboards <br>
 
 ###### PR for new directory: NN
