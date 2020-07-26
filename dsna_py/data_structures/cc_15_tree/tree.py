@@ -1,9 +1,13 @@
-class Node(value):
-    pass
+class TreeNode:
+    def __init__(self, value, left_child=None, right_child=None):
+        self.value = value
+        self.left_child = left_child
+        self.right_child = right_child
 
 
 class BinaryTree:
-    pass
+    def __init__(self):
+        self.root_node = None
 
     def pre_order(self, left_child=None, right_child=None):
         pass
@@ -15,7 +19,7 @@ class BinaryTree:
         pass
 
 
-class BinarySearchTree:
+class BinarySearchTree(BinaryTree):
     pass
 
     def add(self,value):
