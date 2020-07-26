@@ -1,4 +1,4 @@
-class Node(value):
+class Node:
     pass
 
 
