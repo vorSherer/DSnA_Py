@@ -60,8 +60,8 @@ My code is [here](dsna_py/data_structures/cc_15_tree/tree.py)
 - [X] Top-level README “Table of Contents” is updated <br>
 - [ ] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
-    - [ ] “Happy Path” - Expected outcome <br>
-    - [ ] Expected failure <br>
+    - [X] “Happy Path” - Expected outcome <br>
+    - [X] Expected failure <br>
     - [ ] Edge Case (if applicable/obvious) <br>
 - [ ] README for this challenge is complete <br>
     - [X] Summary, Description, Approach & Efficiency, Solution <br>

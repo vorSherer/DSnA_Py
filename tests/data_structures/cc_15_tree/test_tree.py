@@ -220,6 +220,14 @@ def test_non_empty_bst_fails():
 
 
 @pytest.mark.skip
+def test_simple_bst_instantiates(simple_tree):
+    sbstree = simple_tree
+    assert sbstree.root_node.value == 3
+    assert sbstree.root_node.left_child.value == 1
+    assert sbstree.root_node.right_child.value == 7
+
+
+@pytest.mark.skip
 def test_bst_instantiates(balanced_tree):
     bst = BinarySearchTree()
     assert tree.root_node.value == 7
