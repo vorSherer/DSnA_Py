@@ -13,7 +13,7 @@ This project demonstrates the instantiation and modification of a __Binary Tree_
 
 #### Write tests to prove the following functionality: <br>
 1. Can successfully instantiate an empty tree
-1. Can successfully instantiate a tree with a single root node
+1. Can successfully instantiate a tree and add a single root node to the empty tree
 1. Can successfully add a left child and right child to a single root node
 1. Can successfully return a collection from a preorder traversal
 1. Can successfully return a collection from an inorder traversal
