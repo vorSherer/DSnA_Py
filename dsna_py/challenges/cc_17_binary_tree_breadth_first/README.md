@@ -1,19 +1,19 @@
-# Find the Maximum Value in a Binary Tree
+# Breadth-first traversal of a Binary Tree
 
 ## Challenge Description
-Write an instance method called __`find-maximum-value`__. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the __Binary Tree__ will be numeric. <br>
+Write a __breadth-first traversal__ method which takes a __Binary Tree__ as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and __*return a list of the values in the tree in the order they were encountered*__. <br>
 
 ## Approach & Efficiency
-Utilize the __Call Stack__ for the traversal method:
+Utilize a __queue__ structure for the traversal:
 
 __Big O space complexity__ for this approach is __`O(1)`__ <br>
 __Big O time complexity__ for this approach is __`O(n)`__ <br>
 
-My code is [here]()
+My code is [here](./breadth_first_traversal.py)
 
 ## Solution
-![B-Tree find_max whiteboard image 1](./assets/find_max_binary_tree_WB_1.png)
-![B-Tree find_max whiteboard image 2](./assets/find_max_binary_tree_WB_2.png)
+![B-Tree breadth-first whiteboard image 1](./assets/breadth_first_binary_tree_WB_1.png)
+![B-Tree breadth-first whiteboard image 2](./assets/breadth_first_binary_tree_WB_2.png)
 
 ## ATTRIBUTIONS:
 
@@ -29,7 +29,7 @@ My code is [here]()
      - [ ] Edge Case (if applicable/obvious)
  - [ ] README for this challenge is complete
      - [ ] Summary, Description, Approach & Efficiency, Solution
-     - [ ] Link to code
+     - [X] Link to code
      - [ ] Picture of whiteboard
 
 ###### Submission PR:  
