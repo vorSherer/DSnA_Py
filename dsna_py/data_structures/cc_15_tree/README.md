@@ -13,16 +13,16 @@ This project demonstrates the instantiation and modification of a __Binary Tree_
 
 #### Write tests to prove the following functionality: <br>
 1. Can successfully instantiate an empty tree
-1. Can successfully instantiate a tree with a single root node
+1. Can successfully instantiate a tree and add a single root node to the empty tree
 1. Can successfully add a left child and right child to a single root node
 1. Can successfully return a collection from a preorder traversal
 1. Can successfully return a collection from an inorder traversal
 1. Can successfully return a collection from a postorder traversal
 
-<!-- ## Challenge NN -->
+<!-- ## Challenge 16 -->
 <!-- Feature summary. -->
 
-<!-- ## Challenge NN -->
+<!-- ## Challenge 17 -->
 <!-- Feature summary. -->
 
 ## Approach & Efficiency
@@ -42,30 +42,30 @@ The __Big O space complexity of a BST search__ would be __`O(1)`__.
 ## API
 Descriptions of each method publicly available to my Binary Trees are detailed above (q.v.).
 
-My code is [here](dsna_py/data_structures/cc_15_tree/tree.py)
+My code is [here](./tree.py)
 
-## Code Challenge N whiteboards:
+## Code Challenge 15 whiteboards:
 <!-- ![CC-15 binary tree - 1](./RELATIVE_PATH) -->
 <!-- ![CC-15 binary tree - 2](./RELATIVE_PATH) -->
 <!-- ![CC-15 binary tree - 3](./RELATIVE_PATH) -->
 
-## Code Challenge N whiteboard:
+## Code Challenge 16 whiteboard:
 <!-- ![CC-16 binary tree - 1](./RELATIVE_PATH) -->
 
-## Code Challenge N whiteboard:
+## Code Challenge 17 whiteboard:
 <!-- ![CC-17 binary tree - 1](./RELATIVE_PATH) -->
 
 
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
-- [ ] Feature tasks for this challenge are completed <br>
-- [ ] Unit tests written and passing <br>
+- [X] Feature tasks for this challenge are completed <br>
+- [X] Unit tests written and passing <br>
     - [X] “Happy Path” - Expected outcome <br>
     - [X] Expected failure <br>
-    - [ ] Edge Case (if applicable/obvious) <br>
-- [ ] README for this challenge is complete <br>
+    - [X] Edge Case (if applicable/obvious) <br>
+- [X] README for this challenge is complete <br>
     - [X] Summary, Description, Approach & Efficiency, Solution <br>
-    - [ ] Link to code <br>
+    - [X] Link to code <br>
     - [ ] Pictures of whiteboards <br>
 
 ###### PR for new directory: NN
