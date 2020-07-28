@@ -9,27 +9,28 @@ Utilize the __Call Stack__ for the traversal method:
 __Big O space complexity__ for this approach is __`O(1)`__ <br>
 __Big O time complexity__ for this approach is __`O(n)`__ <br>
 
-My code is [here]()
+My code is [here](./find_max_value.py)
 
 ## Solution
 ![B-Tree find_max whiteboard image 1](./assets/find_max_binary_tree_WB_1.png)
 ![B-Tree find_max whiteboard image 2](./assets/find_max_binary_tree_WB_2.png)
+![B-Tree find_max whiteboard image 3](./assets/find_max_binary_tree_WB_3.png)
 
 ## ATTRIBUTIONS:
-
+__Skyler Burger__ helped with debugging code for failed test.
 <br>
 
 #### Checklist:
 
  - [X] Top-level README “Table of Contents” is updated
- - [ ] Feature tasks for this challenge are completed
- - [ ] Unit tests written and passing
-     - [ ] “Happy Path” - Expected outcome
-     - [ ] Expected failure
-     - [ ] Edge Case (if applicable/obvious)
- - [ ] README for this challenge is complete
-     - [ ] Summary, Description, Approach & Efficiency, Solution
-     - [ ] Link to code
-     - [ ] Picture of whiteboard
+ - [X] Feature tasks for this challenge are completed
+ - [X] Unit tests written and passing
+     - [X] “Happy Path” - Expected outcome
+     - [X] Expected failure
+     - [X] Edge Case (if applicable/obvious)
+ - [X] README for this challenge is complete
+     - [X] Summary, Description, Approach & Efficiency, Solution
+     - [X] Link to code
+     - [X] Pictures of whiteboard
 
 ###### Submission PR:  
