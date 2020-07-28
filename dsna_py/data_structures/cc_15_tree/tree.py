@@ -14,10 +14,6 @@ class BinaryTree:
     """
     def __init__(self):
         self.root_node = None
-    #     self.size = 0
-
-    # def tree_size(self):
-    #     return self.size
 
     def pre_order(self, left_child=None, right_child=None):
         """
@@ -26,11 +22,12 @@ class BinaryTree:
         values = []
 
         def walk(curr_node):
+            # Break immediately if node is empty
             if not curr_node:
                 return
+            
             # Deal with the root
             values.append(curr_node.value)
-            
             # Check for a left-child node
             walk(curr_node.left_child)
             # Check for a right-child node
@@ -95,41 +92,54 @@ class BinarySearchTree(BinaryTree):
         """
         Instantiate a node which takes in any value and traverse the Binary Search Tree to add the node in the correct location.
         """
-        pass
+        def walk(curr_node, node_to_add):
 
-        # def walk(curr_node, node_to_add):
-
-        #     if not curr_node:
-        #         return
+            if not curr_node:
+                return
             
-        #     if node_to_add.value < curr_node.value:
-        #         if not curr_node.left_child:
-        #             curr_node.left_child = node_to_add
-        #         else:
-        #             walk(curr_node.left_child, node_to_add)
-        #     else:
-        #         if not curr_node.right_child:
-        #             node.right_child = node_to_add
-        #         else:
-        #             walk(curr_node.right_child, node_to_add)
+            if node_to_add.value < curr_node.value:
+                if not curr_node.left_child:
+                    curr_node.left_child = node_to_add
+                else:
+                    walk(curr_node.left_child, node_to_add)
+            else:
+                if not curr_node.right_child:
+                    curr_node.right_child = node_to_add
+                else:
+                    walk(curr_node.right_child, node_to_add)
 
-        # new_node = TreeNode(value)
+        new_node = TreeNode(value)
 
-        # if not self.root_node:
-        #     self.root_node = new_node
-        #     return
+        if not self.root_node:
+            self.root_node = new_node
+            return
 
-        # walk(self.root_node, new_node)
+        walk(self.root_node, new_node)
         
+    def contains(self, value):
+        """
+        Traverse a Binary Search Tree comparing a given value to the value of each node and return a boolean indicating whether or not the value is in the tree at least once.
+        """
+        def walk(curr_node, value):
+            if not curr_node:
+                return False
 
+            print(curr_node.value)
 
-    def contains(self,value):
-        pass
-        # If value < root, search left
-        # If value >= root, search right
-        # If value found, return True
-        # If value not found, return False
+            # If value found, return True
+            if value == curr_node.value:
+                return True
+            # If value < root, search left
+            elif value < curr_node.value:
+                return walk(curr_node.left_child, value)
+            # If value > root, search right
+            elif value > curr_node.value:
+                return walk(curr_node.right_child, value)
+            # If value not found, return False
+            return False
 
+        return walk(self.root_node, value)
+ 
 
 
 if __name__ == "__main__":
