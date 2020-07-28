@@ -34,3 +34,5 @@ __Skyler Burger__ helped with debugging code for failed test.
      - [X] Pictures of whiteboard
 
 ###### Submission PR:  
+###### Initial:  https://github.com/vorSherer/DSnA_Py/pull/15
+###### Resubmit: https://github.com/vorSherer/DSnA_Py/pull/18

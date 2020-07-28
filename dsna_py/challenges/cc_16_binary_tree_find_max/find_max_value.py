@@ -1,5 +1,4 @@
 from dsna_py.data_structures.cc_15_tree.tree import (
-    # TreeNode,
     BinaryTree,
 )
 
@@ -19,5 +18,3 @@ def find_maximum_value(tree):
         return max_val
 
     return walk(tree.root_node)
-
-
