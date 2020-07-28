@@ -68,5 +68,3 @@ def test_find_new_max_passes(simple_bst):
     expected = 12
     actual = find_maximum_value(mtree)
     assert actual == expected
-
-
