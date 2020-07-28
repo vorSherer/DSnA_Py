@@ -20,7 +20,7 @@ My code is [here]()
 
 #### Checklist:
 
- - [ ] Top-level README “Table of Contents” is updated
+ - [X] Top-level README “Table of Contents” is updated
  - [ ] Feature tasks for this challenge are completed
  - [ ] Unit tests written and passing
      - [ ] “Happy Path” - Expected outcome
