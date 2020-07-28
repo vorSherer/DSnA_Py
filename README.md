@@ -29,3 +29,5 @@
 
 [Code Challenge 16 - Binary Tree - Find max value](dsna_py/challenges/cc_16_binary_tree_find_max/README.md)
 
+[Code Challenge 17 - Binary Tree - breadth-first traversal](dsna_py/challenges/cc_17_binary_tree_breadth_first/README.md)
+
