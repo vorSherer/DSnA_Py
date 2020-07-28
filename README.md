@@ -25,5 +25,7 @@
 
 [Code Challenge 14 - team_whiteboarding - MaxStack](dsna_py/challenges/cc_14_team_whiteboard/README.md)
 
-[Code Challenge 15 - Binary Tree and Binary Search Tree](https://github.com/vorSherer/DSnA_Py/blob/master/dsna_py/data_structures/cc_15_tree/README.md)
+[Code Challenge 15 - Binary Tree and Binary Search Tree](dsna_py/data_structures/cc_15_tree/README.md)
+
+[Code Challenge 16 - Binary Tree - Find max value](dsna_py/challenges/cc_16_binary_tree_find_max/README.md)
 
