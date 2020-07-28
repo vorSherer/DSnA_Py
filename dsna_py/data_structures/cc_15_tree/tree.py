@@ -124,8 +124,6 @@ class BinarySearchTree(BinaryTree):
             if not curr_node:
                 return False
 
-            print(curr_node.value)
-
             # If value found, return True
             if value == curr_node.value:
                 return True
