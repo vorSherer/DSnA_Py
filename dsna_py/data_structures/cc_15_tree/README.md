@@ -55,6 +55,11 @@ My code is [here](./tree.py)
 ## Code Challenge 17 whiteboard:
 <!-- ![CC-17 binary tree - 1](./RELATIVE_PATH) -->
 
+## ATTRIBUTIONS:
+__Merry Cimakasky__ helped with Node testing and some code refactoring for the rest. <br>
+__Lee-Roy King__ helped with Pytest fixture composition and testing. <br>
+<br>
+
 
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
