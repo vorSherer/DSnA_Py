@@ -42,7 +42,7 @@ My code is [here](./fizz_buzz_tree.py)
 
 
 ## Task Checklist: <br>
-- [ ] Top-level README “Table of Contents” is updated <br>
+- [X] Top-level README “Table of Contents” is updated <br>
 - [ ] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
     - [ ] “Happy Path” - Expected outcome <br>
@@ -50,7 +50,7 @@ My code is [here](./fizz_buzz_tree.py)
     - [ ] Edge Case (if applicable/obvious) <br>
 - [ ] README for this challenge is complete <br>
     - [ ] Summary, Description, Approach & Efficiency, Solution <br>
-    - [ ] Link to code <br>
+    - [X] Link to code <br>
     - [ ] Pictures of whiteboards <br> -->
 
-###### PR for new directory: NN
+###### PR for new directory: https://github.com/vorSherer/DSnA_Py/pull/21
