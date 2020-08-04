@@ -21,12 +21,24 @@ __Big O time complexity__ for this approach is __`O(n**2)`__ <br>
 ## API
 <!-- Descriptions of each method publicly available to my k-ary tree are detailed above (q.v.). -->
 
-<!-- My code is [here]() -->
+My code is [here](./fizz_buzz_tree.py)
 
 ## Code Challenge 18 whiteboards:
 <!-- ![CC-18 FizzBuzzTree - 1](./RELATIVE_PATH) -->
 <!-- ![CC-18 FizzBuzzTree - 2](./RELATIVE_PATH) -->
 <!-- ![CC-18 FizzBuzzTree - 3](./RELATIVE_PATH) -->
+
+
+## Attributions
+- root directory __.gitignore__ content courtesy of https://www.toptal.com/developers/gitignore/api/python
+
+- __ics.uci.edu__ helped with [envisioning a k-ary tree](https://www.ics.uci.edu/~brgallar/week6_3.html)
+
+- __Geeks for Geeks__ helped with starter code for
+	- [Iterative Preorder Traversal of an N-ary Tree](https://www.geeksforgeeks.org/iterative-preorder-traversal-of-a-n-ary-tree/), <br>
+	- [constructing the full k-ary tree from its preorder traversal](https://www.geeksforgeeks.org/construct-full-k-ary-tree-preorder-traversal/), <br>
+
+
 
 
 ## Task Checklist: <br>
