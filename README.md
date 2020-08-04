@@ -31,3 +31,5 @@
 
 [Code Challenge 17 - Binary Tree - breadth-first traversal](dsna_py/challenges/cc_17_binary_tree_breadth_first/README.md)
 
+[Code Challenge 18 - k-ary tree - fizzbuzz tree](dsna_py/challenges/fizz_buzz_tree/README.md)
+
