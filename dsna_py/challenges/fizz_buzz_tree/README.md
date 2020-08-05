@@ -16,10 +16,10 @@ Set the values of each of the new nodes depending on the corresponding node valu
 
 ## Approach & Efficiency
 __Big O space complexity__ for this approach is __`O(n)`__ <br>
-__Big O time complexity__ for this approach is __`O(n**2)`__ <br>
+__Big O time complexity__ for this approach is __`O(n)`__ <br>
 
 ## API
-<!-- Descriptions of each method publicly available to my k-ary tree are detailed above (q.v.). -->
+Descriptions of TreeNode method publicly available to my k-ary tree instantiates a node with a number of children determined by the argument passed in.
 
 My code is [here](./fizz_buzz_tree.py)
 
@@ -30,6 +30,8 @@ My code is [here](./fizz_buzz_tree.py)
 
 
 ## Attributions
+- __Skyler Burger__ helped with getting fizz-buzz replacement code working and debugged.
+
 - root directory __.gitignore__ content courtesy of https://www.toptal.com/developers/gitignore/api/python
 
 - __ics.uci.edu__ helped with [envisioning a k-ary tree](https://www.ics.uci.edu/~brgallar/week6_3.html)
@@ -38,19 +40,16 @@ My code is [here](./fizz_buzz_tree.py)
 	- [Iterative Preorder Traversal of an N-ary Tree](https://www.geeksforgeeks.org/iterative-preorder-traversal-of-a-n-ary-tree/), <br>
 	- [constructing the full k-ary tree from its preorder traversal](https://www.geeksforgeeks.org/construct-full-k-ary-tree-preorder-traversal/), <br>
 
-
-
-
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
-- [ ] Feature tasks for this challenge are completed <br>
-- [ ] Unit tests written and passing <br>
-    - [ ] “Happy Path” - Expected outcome <br>
-    - [ ] Expected failure <br>
-    - [ ] Edge Case (if applicable/obvious) <br>
+- [X] Feature tasks for this challenge are completed <br>
+- [X] Unit tests written and passing <br>
+    - [X] “Happy Path” - Expected outcome <br>
+    - [X] Expected failure <br>
+    - [X] Edge Case (if applicable/obvious) <br>
 - [ ] README for this challenge is complete <br>
-    - [ ] Summary, Description, Approach & Efficiency, Solution <br>
+    - [X] Summary, Description, Approach & Efficiency, Solution <br>
     - [X] Link to code <br>
-    - [ ] Pictures of whiteboards <br> -->
+    - [ ] Pictures of whiteboards <br>
 
 ###### PR for new directory: https://github.com/vorSherer/DSnA_Py/pull/21
