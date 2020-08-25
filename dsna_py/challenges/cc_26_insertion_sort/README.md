@@ -58,11 +58,11 @@ My code is [here](./insertion_sort.py)
 
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
-- [ ] Feature tasks for this challenge are completed <br>
-- [ ] Unit tests written and passing <br>
-    - [ ] “Happy Path” - Expected outcome <br>
-    - [ ] Expected failure <br>
-    - [ ] Edge Case (if applicable/obvious) <br>
+- [X] Feature tasks for this challenge are completed <br>
+- [X] Unit tests written and passing <br>
+    - [X] “Happy Path” - Expected outcome <br>
+    - [X] Expected failure <br>
+    - [X] Edge Case (if applicable/obvious) <br>
 - [X] README for this challenge is complete <br>
     - [X] Summary, Description, Approach & Efficiency, Solution <br>
     - [X] Link to code <br>
