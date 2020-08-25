@@ -38,9 +38,9 @@ For your own understanding, consider also stepping through these inputs:
 ---
 
 ## Implementation
-- Provide a visual step through for each of the sample arrays based on the provided pseudo code
-- Convert the pseudo-code into working code in your language
-- Present a complete set of working tests
+- Provide a visual step through for each of the sample arrays based on the provided pseudocode.
+- Convert the pseudocode into working code in python.
+- Present a complete set of working tests.
 
 
 ## Approach & Efficiency
@@ -51,23 +51,21 @@ __Big O time complexity for comparison__ is __`O(1)`__ <br>
 
 My code is [here](./insertion_sort.py)
 
-## Code Challenge 26 whiteboards:
-<!-- ![CC-26 insertion sort - 1](./RELATIVE_PATH) -->
-<!-- ![CC-26 insertion sort - 2](./RELATIVE_PATH) -->
-<!-- ![CC-26 insertion sort - 3](./RELATIVE_PATH) -->
+## Code Challenge 26 blog / whiteboards:
+[CC-26 insertion sort blog.md file](./assets/insert_sort_blog.md)
 
 ---
 
 ## Task Checklist: <br>
-<!-- - [ ] Top-level README “Table of Contents” is updated <br>
+- [X] Top-level README “Table of Contents” is updated <br>
 - [ ] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
     - [ ] “Happy Path” - Expected outcome <br>
     - [ ] Expected failure <br>
     - [ ] Edge Case (if applicable/obvious) <br>
-- [ ] README for this challenge is complete <br>
-    - [ ] Summary, Description, Approach & Efficiency, Solution <br>
-    - [ ] Link to code <br>
-    - [ ] Pictures of whiteboards <br> -->
+- [X] README for this challenge is complete <br>
+    - [X] Summary, Description, Approach & Efficiency, Solution <br>
+    - [X] Link to code <br>
+    - [X] Link to blog.md in lieu of whiteboards <br>
 
 ###### PR for new directory: NN
