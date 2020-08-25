@@ -33,3 +33,6 @@
 
 [Code Challenge 18 - k-ary tree - fizzbuzz tree](dsna_py/challenges/fizz_buzz_tree/README.md)
 
+
+
+[Code Challenge 26 - insert sort](/dsna_py/challenges/cc_26_insertion_sort/README.md)
