@@ -88,7 +88,7 @@ My code is [here](./merge_sort.py)
     - [ ] Edge Case (if applicable/obvious) <br>
 - [ ] README for this challenge is complete <br>
     - [ ] Summary, Description, Approach & Efficiency, Solution <br>
-    - [ ] Link to code <br>
-    - [ ] Link to blog.md in lieu of whiteboards <br>
+    - [X] Link to code <br>
+    - [X] Link to blog.md in lieu of whiteboards <br>
 
 ###### PR for new directory: NN
