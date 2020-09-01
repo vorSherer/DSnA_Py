@@ -51,56 +51,64 @@ Sample List: 	[ 8, 4, 23, 42, 16, 15]
   0  1   2   3   4   5    right = 16
 ```
 To begin partitioning, set the left pointer to the first index of the list and the right pointer to the last.  Then the value of the right pointer is assigned to the 'pivot' variable and right pointer is re-assigned one place to the left (i.e., len(list)-1).
----
+
+
 ```   Left Pointer:
          l       r   p    pivot = 15
 [ 8, 4, 23, 42, 16, (15)]  left = 23
   0  1   2   3   4   5    right = 16
 ```
 The value at the left pointer is recursively compared to the pivot value; while the left value is less than or equal to the pivot, left pointer is moved one index to the right. Once the left value is greater than or equal to the pivot value, the left pointer stops.
----
+
+
 ```  Right Pointer:
         lr           p    pivot = 15
 [ 8, 4, 23, 42, 16, (15)]  left = 23
   0  1   2   3   4   5    right = 23
 ```
 Once the left pointer stops, the right pointer is activated, again recursively comparing the right value to be greater than or equal to the pivot value. In this example, there are no values less than the Pivot value, so the right pointer eventually meets the left and stops. Had the right pointer stopped at value is less than or equal to the pivot value, the left and right values would have been swapped.
----
+
+
 ```  Pivot Swap:
          p          lr    pivot = 15
 [ 8, 4, 15, 42, 16, 23]    left = 23    
   0  1   2   3   4   5    right = 23
 ```
 Once the left and right pointers meet, the pointers no longer are moved.  At this point the pivot value and that at the left pointer are swapped.
----
+
+
 ``` Partition Left:
   lr  p                   pivot =  4
 [ 8, (4), 15, 42, 16, 23]  left =  8
   0  1   2   3   4   5    right =  8
 ```
 Now the sublist to the left of the pivot value gets partitioned; the right-most value in the sublist becomes the new pivot and left and right pointers are set as before. The left sublist would be partitioned as before. In this example, however, both pointers are initially set to the same position, ending pointer movement. 
----
+
+
 ```  Pivot Swap:
   p lr                    pivot =  4
 [ 4, 8, 15, 42, 16, 23]    left =  8
   0  1   2   3   4   5    right =  8
 ```
 As before, the pivot value is swapped with that of the left pointer. moved.  At this point the pivot value and that at the left pointer are swapped. This process would be repeated until all values to the left of the original pivot have been evaluated as a pivot.
----
+
+
 ``` Partition Right:
              l   r   p    pivot = 23
 [ 4, 8, 15, 42, 16, (23)]  left = 42
   0  1   2   3   4   5    right = 16
 ```
 Now the sublist to the right of the original pivot value gets partitioned; the right-most value becomes the new pivot and left and right pointers are set as before. The left pointer value is compared to the pivot value; in this example, it is greater, so the left pointer stops. The right pointer value is compared next; since it is less than the pivot value, the right pointer stops.
----
+
+
 ```  Value Swap:
              l   r   p    pivot = 23    
 [ 4, 8, 15, 16, 42, (23)]  left = 42    
   0  1   2   3   4   5    right = 16    
 ```
 Since both pointers have stopped, their values are swapped.
----
+
+
 ```   Left Pointer:     
                 lr   p    pivot = 23
 [ 4, 8, 15, 16, 42, (23)]  left = 42
@@ -108,17 +116,19 @@ Since both pointers have stopped, their values are swapped.
 ```
 The left pointer value (16) is now less than the pivot value, so it moves right. Since both pointers now point to the same position, they both stop.
 
+
 ```  Pivot Swap:
                  p  lr    pivot =  4
 [ 4, 8, 15, 16, 23, 42]    left =  8
   0  1   2   3   4   5    right =  8
 ```
 Since both pointers have stopped and the value at the left pointer is less than the pivot value, the left pointer value and the pivot value are swapped. This process also continues until all values to the right of the original pivot have also been evaluated as pivots. The list is now sorted in place.
+
 ---
 
 ## Efficency
 - __Time: O(n * log n)__
-	- The basic operation of this algorithm is partitioning via comparisons and swaps; worst case, this will happen __n^2 / 2__ number of times, thus the algorithm is simplified to __`n^2`__.
+	- The basic operation of this algorithm is partitioning via comparisons and swaps; <br> __*worst case*__, this will happen __n^2 / 2__ number of times, thus the algorithm is simplified to __`n^2`__.
 - __Space: O(1)__
 	- No additional space is being created: This array is being sorted in place, resulting in an __`O(1)`__ complexity.
 
