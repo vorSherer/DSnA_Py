@@ -41,5 +41,5 @@
 
 [Code Challenge 28 - quick sort](/dsna_py/challenges/cc_28_quick_sort/README.md)
 
-[Code Challenge 29 - team_whiteboarding - merge sort]()
+[Code Challenge 29 - team_whiteboarding - merge sort](/dsna_py/challenges/cc_29_team_whiteboard/README.md)
 
