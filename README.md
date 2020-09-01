@@ -35,7 +35,11 @@
 
 
 
-[Code Challenge 26 - insert sort](/dsna_py/challenges/cc_26_insertion_sort/README.md)
+[Code Challenge 26 - insertion sort](/dsna_py/challenges/cc_26_insertion_sort/README.md)
 
 [Code Challenge 27 - merge sort](/dsna_py/challenges/cc_27_merge_sort/README.md)
+
+[Code Challenge 28 - quick sort](/dsna_py/challenges/cc_28_quick_sort/README.md)
+
+[Code Challenge 29 - team_whiteboarding - merge sort]()
 
