@@ -5,7 +5,7 @@ class Hashtable:
         self.size = size
         self._buckets = [None] * size
 
-    def hash(self, key):
+    def _hash(self, key):
         resulting_hash = 0
 
         for ch in key:
@@ -15,7 +15,12 @@ class Hashtable:
         return ((resulting_hash * spike) * 151) % self.size
 
     def add(self, key, value):
-        pass
+        hashed_key = self._hash(key)
+
+        if not self._buckets[hashed_key]:
+            self._buckets[hashed_key] = LinkedList()
+
+        self._buckets[hashed_key].append([key, value])
 
     def get(self, key):
         pass
@@ -29,9 +34,13 @@ class Hashtable:
 
 if __name__ == "__main__":
     hasher = Hashtable()
-    print("Bob= ", hasher.hash("Bob"))
-    print("Dan= ", hasher.hash("Dan"))
-    print("Ted= ", hasher.hash("Ted"))
-    print("Ralph= ", hasher.hash("Ralph"))
-    print("Dennis= ", hasher.hash("Dennis"))
-    print("George= ", hasher.hash("George"))
+    print("Bob= ", hasher._hash("Bob"))
+    print("Dan= ", hasher._hash("Dan"))
+    print("Ted= ", hasher._hash("Ted"))
+    print("Ralph= ", hasher._hash("Ralph"))
+    print("Dennis= ", hasher._hash("Dennis"))
+    print("George= ", hasher._hash("George"))
+    hasher.add("Bob", 5551212)
+    hasher.add("Ralph", 5553333)
+    hasher.add("Dennis", 5556789)
+   
