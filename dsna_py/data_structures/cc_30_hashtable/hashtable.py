@@ -34,8 +34,16 @@ class Hashtable:
                 return current.value[1]
 
     def contains(self, key):
-        pass
+        hashed_key = self._hash(key)
 
+        bucket_list = self._buckets[hashed_key]
+
+        if self._buckets[hashed_key]:
+            current = bucket_list.head
+
+            while current:
+                if current.value[0] == key:
+                    return True
 
 
 
@@ -52,5 +60,6 @@ if __name__ == "__main__":
     hasher.add("Ralph", 5553333)
     hasher.add("Dennis", 5556789)
     sample = hasher.get("Bob")
-    print(sample)
-   
+    print("Bob = ", sample)
+    exists = hasher.contains("Ralph")
+    print("Ralph? ", exists)
