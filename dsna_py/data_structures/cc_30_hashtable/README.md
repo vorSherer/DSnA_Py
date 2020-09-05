@@ -23,10 +23,9 @@ Write tests to prove the following functionality: <br>
 1. Successfully hash a key to an in-range value
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-<!-- __Big O space complexity__ for this approach is __`O(n)`__ <br>
+__Big O space complexity__ for this approach is __`O(n)`__ <br>
 __Big O time complexity__ for this approach can be __`O(n)`__ but is typically closer to O(1) <br>
-__Big O time complexity for lookup__ is __`O(1)`__ <br> -->
+__Big O time complexity for lookup__ is __`O(1)`__ <br>
 
 ## API
 This method has access to the full functionality of __Linked Lists__ for collision resolution.
@@ -36,13 +35,13 @@ My code is [here](./hashtable.py)
 ---
 
 ## Code Challenge N whiteboards:
-<!-- ![CC-15 binary tree - 1](./RELATIVE_PATH) -->
+<!-- ![CC-30 hashtable - 1](./RELATIVE_PATH) -->
 
 ---
 
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
-- [ ] Feature tasks for this challenge are completed <br>
+- [X] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
     - [ ] “Happy Path” - Expected outcome <br>
     - [ ] Expected failure <br>
