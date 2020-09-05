@@ -43,3 +43,5 @@
 
 [Code Challenge 29 - team_whiteboarding - merge sort](/dsna_py/challenges/cc_29_team_whiteboard/README.md)
 
+[Code Challenge 30 - hash tables](/dsna_py/data_structures/cc_30_hashtable/README.md)
+
