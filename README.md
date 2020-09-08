@@ -47,3 +47,5 @@
 
 [Code Challenge 31 - repeated word](/dsna_py/challenges/cc_31_repeated_word/README.md)
 
+[Code Challenge 32 - tree intersections](/dsna_py/challenges/cc_32_tree_intersection/README.md)
+
