@@ -55,7 +55,7 @@ My code is [here](./repeated_word.py)
 
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
-- [ ] Feature tasks for this challenge are completed <br>
+- [X] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
     - [ ] “Happy Path” - Expected outcome <br>
     - [ ] Expected failure <br>
