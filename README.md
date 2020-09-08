@@ -45,3 +45,5 @@
 
 [Code Challenge 30 - hash tables](/dsna_py/data_structures/cc_30_hashtable/README.md)
 
+[Code Challenge 31 - repeated word](/dsna_py/challenges/cc_31_repeated_word/README.md)
+
