@@ -37,12 +37,11 @@ __*Output*__	__`"summer"`__ <br>
 ---
 
 ## Approach & Efficiency
-<!-- __Big O space complexity__ for this approach is __`O(n)`__ <br>
-__Big O time complexity__ for this approach is __`O(n)`__ <br>
-__Big O time complexity for insertion/deletion__ is __`O(1)`__ <br> -->
+__Big O space complexity__ for this approach is __`O(n)`__ <br>
+__Big O time complexity__ for this approach is __`O(1)`__ <br>
 
 ## API
-<!-- Descriptions of each method publicly available to my NN are detailed above (q.v.). -->
+This implementation has access to all features available to my Hashtable and LinkedList classes.
 
 My code is [here](./repeated_word.py)
 
@@ -56,10 +55,10 @@ My code is [here](./repeated_word.py)
 ## Task Checklist: <br>
 - [X] Top-level README “Table of Contents” is updated <br>
 - [X] Feature tasks for this challenge are completed <br>
-- [ ] Unit tests written and passing <br>
-    - [ ] “Happy Path” - Expected outcome <br>
-    - [ ] Expected failure <br>
-    - [ ] Edge Case (if applicable/obvious) <br>
+- [X] Unit tests written and passing <br>
+    - [X] “Happy Path” - Expected outcome <br>
+    - [X] Expected failure <br>
+    - [X] Edge Case (if applicable/obvious) <br>
 - [ ] README for this challenge is complete <br>
     - [ ] Summary, Description, Approach & Efficiency, Solution <br>
     - [X] Link to code <br>
