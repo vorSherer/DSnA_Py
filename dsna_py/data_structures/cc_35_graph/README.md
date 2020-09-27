@@ -58,7 +58,7 @@ My code is [here](./graph.py)
 ---
 
 ## Task Checklist: <br>
-- [ ] Top-level README “Table of Contents” is updated <br>
+- [X] Top-level README “Table of Contents” is updated <br>
 - [ ] Feature tasks for this challenge are completed <br>
 - [ ] Unit tests written and passing <br>
     - [ ] “Happy Path” - Expected outcome <br>
@@ -72,3 +72,4 @@ My code is [here](./graph.py)
 ---
 
 ###### PR for new directory: PR
+Initial commit - https://github.com/vorSherer/DSnA_Py/pull/41
