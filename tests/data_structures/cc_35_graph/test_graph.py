@@ -55,6 +55,7 @@ def test_add_two_edges():
 
 
 # A collection of all nodes can be properly retrieved from the graph
+@pytest.mark.skip
 def test_get_vertices():
     graph = Graph()
     starting = graph.add_vertex('spam')
