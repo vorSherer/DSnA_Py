@@ -52,3 +52,7 @@
 
 
 [Code Challenge 35 - graph](https://github.com/vorSherer/DSnA_Py/blob/master/dsna_py/data_structures/cc_35_graph/README.md)
+
+[Code Challenge 36 - breadth-first graph]()
+
+[Code Challenge 37 - graph get edge]()
