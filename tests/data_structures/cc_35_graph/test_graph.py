@@ -54,17 +54,26 @@ def test_add_two_edges():
     assert graph.adjacency_list[starting][1].vertex == second_node
 
 
-# A collection of all nodes can be properly retrieved from the graph
-@pytest.mark.skip
-def test_get_vertices():
+@pytest.fixture
+def graph_one():
     graph = Graph()
     starting = graph.add_vertex('spam')
     first_node = graph.add_vertex('egg')
     second_node = graph.add_vertex('sausage')
     third_node = graph.add_vertex('bacon')
     graph.add_edge(starting, first_node)
+    graph.add_edge(first_node, starting)
     graph.add_edge(starting, second_node)
+    graph.add_edge(second_node, starting)
     graph.add_edge(starting, third_node)
+    graph.add_edge(first_node, second_node)
+    return graph
+
+
+# A collection of all nodes can be properly retrieved from the graph
+@pytest.mark.skip
+def test_get_vertices(graph_one):
+    graph = graph_one
     vertices = graph.get_vertices
     assert vertices == ['spam', 'egg', 'sausage', 'bacon']
 
